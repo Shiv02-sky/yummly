@@ -1,0 +1,69 @@
+{
+    "questions": [
+        {
+            "question": "Which city is famous for 'Biryani'?",
+            "correct_answer": "Hyderabad",
+            "incorrect_answers": ["Lucknow", "Chennai", "Mumbai"]
+        },
+        {
+            "question": "What is the main ingredient in 'Sarson da Saag'?",
+            "correct_answer": "Mustard leaves",
+            "incorrect_answers": ["Spinach", "Fenugreek leaves", "Cabbage"]
+        },
+        {
+            "question": "Which state is famous for 'Dhokla'?",
+            "correct_answer": "Gujarat",
+            "incorrect_answers": ["Rajasthan", "Punjab", "Maharashtra"]
+        },
+        {
+            "question": "What is traditionally served with 'Appam' in Kerala?",
+            "correct_answer": "Stew",
+            "incorrect_answers": ["Sambar", "Rasam", "Chutney"]
+        },
+        {
+            "question": "What is the main ingredient of 'Misal Pav'?",
+            "correct_answer": "Sprouted moth beans",
+            "incorrect_answers": ["Chickpeas", "Black lentils", "Peas"]
+        },
+        {
+            "question": "Which sweet is famous in Bengal?",
+            "correct_answer": "Rasgulla",
+            "incorrect_answers": ["Ghevar", "Mysore Pak", "Peda"]
+        },
+        {
+            "question": "What is the traditional drink made from buttermilk and spices in South India?",
+            "correct_answer": "Neer Mor",
+            "incorrect_answers": ["Lassi", "Thandai", "Aam Panna"]
+        },
+        {
+            "question": "Which Indian bread is cooked in a clay tandoor?",
+            "correct_answer": "Naan",
+            "incorrect_answers": ["Paratha", "Bhatura", "Puri"]
+        },
+        {
+            "question": "Where did the sweet 'Petha' originate?",
+            "correct_answer": "Agra",
+            "incorrect_answers": ["Jaipur", "Bikaner", "Varanasi"]
+        },
+        {
+            "question": "What is the main ingredient of 'Upma'?",
+            "correct_answer": "Rava (Semolina)",
+            "incorrect_answers": ["Rice", "Wheat flour", "Besan"]
+        },
+        {
+            "question": "Which festival is associated with eating 'Sweets like Modak'?",
+            "correct_answer": "Ganesh Chaturthi",
+            "incorrect_answers": ["Diwali", "Holi", "Navratri"]
+        },
+        {
+            "question": "Which city is famous for 'Poha & Jalebi' breakfast?",
+            "correct_answer": "Indore",
+            "incorrect_answers": ["Nagpur", "Bhopal", "Surat"]
+        },
+        {
+            "question": "What is the primary ingredient in 'Chole'?",
+            "correct_answer": "Chickpeas",
+            "incorrect_answers": ["Black gram", "Kidney beans", "Lentils"]
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Quiz | Yummly</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/quiz.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="assets/logo.png" alt="Foodie World Logo" class="logo">
+            <h1>Yummly</h1>
+            <p class="tagline">Recipes, Quizzes & Street Bites!</p>
+        </div>
+        <nav>
+            <button class="mobile-menu-btn">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="quiz.html" class="active">Food Quiz</a></li>
+                <li><a href="streetfood.html">Street Food</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="quizStart" class="quiz-start">
+            <h2>Food Quiz Challenge</h2>
+            <p>Test your food knowledge with our question quiz! Get +5 points for each correct answer.</p>
+            <button id="startQuizBtn" class="start-btn">Start Quiz</button>
+        </section>
+
+        <section id="quizContainer" class="quiz-container hidden">
+            <div class="quiz-header">
+                <div class="quiz-progress">
+                    Question <span id="currentQuestion">1</span>/<span id="totalQuestions">10</span>
+                </div>
+                <div class="quiz-score">
+                    Score: <span id="currentScore">0</span>
+                </div>
+            </div>
+            
+            <div class="question-container">
+                <h3 id="questionText">Loading question...</h3>
+                <div id="optionsContainer" class="options-container">
+                    <!-- Options will be loaded here by JavaScript -->
+                </div>
+            </div>
+            
+            <button id="nextQuestionBtn" class="next-btn hidden">Next Question</button>
+        </section>
+
+        <section id="quizResults" class="quiz-results hidden">
+            <h2>Quiz Completed!</h2>
+            <div class="result-score">
+                Your Score: <span id="finalScore">0</span>/<span id="maxScore">50</span>
+            </div>
+            <p id="resultMessage">Great job! You're a food expert!</p>
+            <div class="result-actions">
+                <button id="retryQuizBtn" class="action-btn">Try Again</button>
+                <button id="shareQuizBtn" class="action-btn">Share Score</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>

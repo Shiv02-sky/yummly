@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Food | Yummly</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/streetfood.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="assets/logo.png" alt="Foodie World Logo" class="logo">
+            <h1>Yummly</h1>
+            <p class="tagline">Recipes, Quizzes & Street Bites!</p>
+        </div>
+        <nav>
+            <button class="mobile-menu-btn">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="quiz.html">Food Quiz</a></li>
+                <li><a href="streetfood.html" class="active">Street Food</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Find Street Food Near You</h2>
+        <button id="useLocationBtn" text-align:centre>📍 Use My Location</button>
+        <div id="map"></div>
+    </main>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/streetfood.js"></script>
+
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/streetfood.js"></script>
+</body>
+</html>

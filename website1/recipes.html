@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Hub | Yummly</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/recipes.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="assets/logo.png" alt="Foodie World Logo" class="logo">
+            <h1>Yummly</h1>
+            <p class="tagline">Recipes, Quizzes & Street Bites!</p>
+        </div>
+        <nav>
+            <button class="mobile-menu-btn">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html" class="active">Recipes</a></li>
+                <li><a href="quiz.html">Food Quiz</a></li>
+                <li><a href="streetfood.html">Street Food</a></li>
+            </ul>
+        </nav>
+        <div class="reward-counter">
+            <span id="rewardPoints">0</span> pts
+        </div>
+    </header>
+
+    <main>
+        <section class="recipe-form-section">
+            <h2>Share Your Recipe</h2>
+            <form id="recipeForm">
+                <div class="form-group">
+                    <label for="recipeTitle">Recipe Title</label>
+                    <input type="text" id="recipeTitle" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="recipeDescription">Description</label>
+                    <textarea id="recipeDescription" rows="4" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="recipeImage">Upload Image</label>
+                    <input type="file" id="recipeImage" accept="image/*">
+                </div>
+                
+                <button type="submit" class="submit-btn">Share Recipe</button>
+            </form>
+        </section>
+
+        <section class="recipe-gallery">
+            <h2>Community Recipes</h2>
+            <div class="search-filter">
+                <input type="text" id="recipeSearch" placeholder="Search recipes...">
+                <select id="recipeFilter">
+                    <option value="all">All Recipes</option>
+                    <option value="popular">Most Popular</option>
+                    <option value="recent">Most Recent</option>
+                </select>
+            </div>
+            
+            <div id="recipesContainer" class="recipes-container">
+                <!-- Recipes will be loaded here by JavaScript -->
+                <div class="placeholder-recipe">
+                    <p>No recipes yet. Be the first to share!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/recipes.js"></script>
+</body>
+</html>

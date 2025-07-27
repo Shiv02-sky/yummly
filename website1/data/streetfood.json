@@ -1,0 +1,94 @@
+{
+    "locations": [
+        {
+            "name": "Taco Stand El Amigo",
+            "address": "123 Main St, Anytown",
+            "lat": 40.7128,
+            "lng": -74.0060,
+            "food_type": "Mexican Tacos",
+            "rating": 4.5,
+            "image": "images/taco-stand.jpg"
+        },
+        {
+            "name": "Curry Up Now",
+            "address": "456 Oak Ave, Somewhere",
+            "lat": 40.7215,
+            "lng": -74.0123,
+            "food_type": "Indian Street Food",
+            "rating": 4.2,
+            "image": "images/curry-stand.jpg"
+        },
+        {
+            "name": "Bao Wow",
+            "address": "789 Pine Rd, Nowhere",
+            "lat": 40.7152,
+            "lng": -74.0087,
+            "food_type": "Taiwanese Bao Buns",
+            "rating": 4.7,
+            "image": "images/bao-stand.jpg"
+        },
+        {
+            "name": "Falafel King",
+            "address": "321 Elm Blvd, Anywhere",
+            "lat": 40.7098,
+            "lng": -74.0154,
+            "food_type": "Middle Eastern Falafel",
+            "rating": 4.3,
+            "image": "images/falafel-stand.jpg"
+        },
+        {
+            "name": "Crepe Crazy",
+            "address": "654 Maple Ln, Everywhere",
+            "lat": 40.7183,
+            "lng": -74.0032,
+            "food_type": "French Crepes",
+            "rating": 4.8,
+            "image": "images/crepe-stand.jpg"
+        },
+        {
+            "name": "Sausage Fest",
+            "address": "987 Cedar St, Someplace",
+            "lat": 40.7139,
+            "lng": -74.0198,
+            "food_type": "German Sausages",
+            "rating": 4.1,
+            "image": "images/sausage-stand.jpg"
+        },
+        {
+            "name": "Arepa Loca",
+            "address": "135 Birch Dr, Nowhere",
+            "lat": 40.7075,
+            "lng": -74.0102,
+            "food_type": "Venezuelan Arepas",
+            "rating": 4.6,
+            "image": "images/arepa-stand.jpg"
+        },
+        {
+            "name": "Banh Mi Brothers",
+            "address": "246 Walnut Way, Anywhere",
+            "lat": 40.7201,
+            "lng": -74.0176,
+            "food_type": "Vietnamese Sandwiches",
+            "rating": 4.4,
+            "image": "images/banhmi-stand.jpg"
+        },
+        {
+            "name": "Gyro Hero",
+            "address": "369 Spruce Pl, Somewhere",
+            "lat": 40.7147,
+            "lng": -74.0059,
+            "food_type": "Greek Gyros",
+            "rating": 4.0,
+            "image": "images/gyro-stand.jpg"
+        },
+        {
+            "name": "Dumpling Dynasty",
+            "address": "482 Willow Ct, Everywhere",
+            "lat": 40.7168,
+            "lng": -74.0132,
+            "food_type": "Chinese Dumplings",
+            "rating": 4.9,
+            "image": "images/dumpling-stand.jpg"
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+/* Street Food Page Specific Styles */
+.location-section {
+    text-align: center;
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+}
+
+.location-section h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.location-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.location-btn .icon {
+    font-size: 1.2rem;
+}
+
+#locationStatus {
+    color: #666;
+    margin-top: 1rem;
+}
+
+.map-section {
+    height: 400px;
+    margin: 2rem 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+}
+
+
+#map {
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+#useLocationBtn {
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.streetfood-list {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.streetfood-list h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.food-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.food-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.food-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.food-content {
+    padding: 1.5rem;
+}
+
+.food-name {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark-color);
+}
+
+.food-location {
+    color: #666;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.food-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.directions-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.directions-btn:hover {
+    background-color: var(--accent-color);
+}
+
+.no-location {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.no-location h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.city-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.city-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.city-card:hover {
+    transform: translateY(-5px);
+}
+
+.city-card h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.city-card p {
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .location-section {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+    
+    .food-cards, .city-cards {
+        grid-template-columns: 1fr;
+    }
+}
