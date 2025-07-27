@@ -8,9 +8,7 @@ An **interactive food-themed website** where you can:
 ✅ Find nearby restaurants & street food stalls using your live location (**Leaflet.js + OpenStreetMap**)  
 
 ---
-
-## 🚀 Live Demo  
-🔗https://shivani-yummly2025.netlify.app/
+https://shivani-yummly2025.netlify.app/
 
 ---
 
